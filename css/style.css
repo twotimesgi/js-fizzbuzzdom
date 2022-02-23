@@ -15,9 +15,22 @@
 .item{
     width: 100px;
     height: 100px;
-    background: red;
+    background: rgb(255, 201, 201);
     display: flex;
     align-items: center;
     justify-content: center;
     border: 5px white solid; 
+}
+
+[data-m="3"]{
+    background: rgb(255, 133, 133);
+}
+
+
+[data-m="5"]{
+    background: rgb(255, 73, 73);
+}
+
+[data-m="3,5"]{
+    background-color: rgb(255, 55, 55);
 }
